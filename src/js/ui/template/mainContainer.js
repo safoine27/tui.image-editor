@@ -5,10 +5,7 @@ export default ({locale, biImage, commonStyle, headerStyle, loadButtonStyle, dow
                 <img src="${biImage}" />
             </div>
             <div class="tui-image-editor-header-buttons">
-                <button style="${loadButtonStyle}">
-                    ${locale.localize('Load')}
-                    <input type="file" class="tui-image-editor-load-btn" />
-                </button>
+                
                 <button class="tui-image-editor-download-btn" style="${downloadButtonStyle}">
                     ${locale.localize('Download')}
                 </button>
