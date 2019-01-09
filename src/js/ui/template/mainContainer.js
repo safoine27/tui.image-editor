@@ -7,7 +7,7 @@ export default ({locale, biImage, commonStyle, headerStyle, loadButtonStyle, dow
             <div class="tui-image-editor-header-buttons">
                 
                 <button class="tui-image-editor-download-btn" style="${downloadButtonStyle}">
-                    ${locale.localize('Download')}
+                    ${locale.localize('Appliquer')}
                 </button>
             </div>
         </div>
